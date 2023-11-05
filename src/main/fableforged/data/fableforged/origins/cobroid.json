@@ -1,0 +1,17 @@
+{
+  "powers": [
+    "fableforged:cobroid/one_block_height",
+    "fableforged:cobroid/green_skin",
+    "fableforged:cobroid/speed_in_day",
+    "fableforged:cobroid/poison_shot",
+    "fableforged:cobroid/speed_in_nether",
+    "fableforged:cobroid/scale_armor",
+    "fableforged:cobroid/cold_attributes",
+    "fableforged:cobroid/cold_count",
+    "fableforged:cobroid/cold_resource"
+
+  ],
+  "icon": "minecraft:scute",
+  "order": 10,
+  "impact":1
+}

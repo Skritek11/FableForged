@@ -1,0 +1,14 @@
+{
+  "powers": [
+
+      "fableforged:rift_entity/starlight",
+      "fableforged:rift_entity/supernova",
+      "fableforged:rift_entity/unstable",
+      "fableforged:rift_entity/skirmish",
+      "fableforged:rift_entity/time_space_who_dis"
+
+  ],
+  "icon": "minecraft:popped_chorus_fruit",
+  "order": 10,
+  "impact": 3
+}

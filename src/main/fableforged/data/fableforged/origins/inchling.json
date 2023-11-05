@@ -1,0 +1,19 @@
+{
+    "powers": [
+        "fableforged:inchling/size",
+        "fableforged:inchling/nimble",
+        "fableforged:inchling/immunity",
+        "fableforged:inchling/ride",
+        "fableforged:inchling/climb",
+        "fableforged:inchling/small_appetite",
+        "fableforged:inchling/switch_form",
+        "fableforged:inchling/less_health",
+        "fableforged:inchling/size_change",
+        "fableforged:inchling/sugar/sugarrush",
+        "fableforged:inchling/sugar/sugar",
+        "fableforged:inchling/sugar/sugareat"
+    ],
+    "icon": "minecraft:anvil",
+    "order": 10,
+    "impact": 3
+}

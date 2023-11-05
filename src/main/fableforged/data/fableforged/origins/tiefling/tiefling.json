@@ -1,0 +1,18 @@
+{
+  "powers": [
+    "fableforged:tiefling/no_place_like_home",
+    "fableforged:tiefling/fire_and_flames",
+    "fableforged:tiefling/nether",
+    "fableforged:tiefling/skin_color",
+    "fableforged:tiefling/hellish_rebuke"
+  ],
+  "upgrades":[
+    {
+      "condition":"minecraft:nether/explore_nether",
+      "origin":"fableforged:tiefling/melissa_tiefling"
+    }
+  ],
+  "icon": "minecraft:fire_charge",
+  "order": 10,
+  "impact": 3
+}

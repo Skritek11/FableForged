@@ -1,0 +1,14 @@
+{
+    "type": "origins:conditioned_attribute",
+    "modifier": {
+        "attribute": "minecraft:generic.movement_speed",
+        "operation": "addition",
+        "value": -0.04
+    },
+    "condition": {
+        "type": "origins:power_active",
+        "power": "fableforged:jin_and_jang/switch_form",
+        "inverted": true
+    },
+    "hidden": true
+}

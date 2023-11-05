@@ -1,0 +1,13 @@
+{
+  "type":"origins:effect_immunity",
+  "effects":[
+    "minecraft:slowness"
+  ],
+  "hidden":true,
+
+  "condition": {
+    "type": "origins:power_active",
+    "power": "fableforged:inchling/switch_form",
+    "inverted": false
+  }
+}

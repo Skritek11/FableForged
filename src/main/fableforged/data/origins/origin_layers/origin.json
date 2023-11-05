@@ -1,0 +1,10 @@
+{
+  "allow_random":true,
+  "origins": [
+    "fableforged:inchling",
+    "fableforged:rift_entity",
+    "fableforged:tiefling/tiefling",
+    "fableforged:cobroid",
+    "fableforged:dwarf"
+  ]
+}

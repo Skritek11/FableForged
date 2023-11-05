@@ -1,0 +1,15 @@
+{
+    "type": "origins:conditioned_attribute",
+    "modifier": {
+        "attribute": "minecraft:generic.max_health",
+        "operation": "addition",
+        "value": -8
+    },
+    "tick_rate": 20,
+    "condition": {
+        "type": "origins:power_active",
+        "power": "fableforged:jin_and_jang/switch_form",
+        "inverted": false
+    },
+    "hidden": true
+}

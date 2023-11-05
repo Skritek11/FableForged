@@ -1,0 +1,17 @@
+{
+  "type":"origins:multiple",
+  "scale":{
+    "type":"origins:action_over_time",
+    "entity_action":{
+      "type":"origins:execute_command",
+      "command":"function fableforged:inchling/size-reset"
+    },
+    "interval":10,
+    "condition": {
+      "type": "origins:power_active",
+      "power": "fableforged:inchling/switch_form",
+      "inverted": false
+    }
+  },
+  "hidden":true
+}

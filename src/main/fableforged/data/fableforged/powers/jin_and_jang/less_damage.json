@@ -1,0 +1,14 @@
+{
+    "type": "origins:conditioned_attribute",
+    "modifier": {
+        "attribute": "minecraft:generic.attack_damage",
+        "operation": "addition",
+        "value": -4
+    },
+    "condition": {
+        "type": "origins:power_active",
+        "power": "fableforged:jin_and_jang/switch_form",
+        "inverted": true
+    },
+    "hidden": true
+}

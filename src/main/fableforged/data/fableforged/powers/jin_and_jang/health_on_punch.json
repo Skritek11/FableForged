@@ -1,0 +1,18 @@
+{
+    "type": "origins:self_action_on_hit",
+    "entity_action": {
+        "type": "origins:heal",
+        "amount": 2
+    },
+    "hud_render": {
+        "should_render": false
+    },
+    "cooldown": 10,
+    "condition": {
+        "type": "origins:power_active",
+        "power": "fableforged:jin_and_jang/switch_form",
+        "inverted": true
+    },
+    "name": "Yang",
+    "description": "While in this form, you will gain extra defense and health. You will also regenerate whenever you deal damage. The cost of this is lower speed and damage."
+}

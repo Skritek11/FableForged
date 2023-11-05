@@ -1,0 +1,45 @@
+{
+  "type": "origins:multiple",
+  "remove": {
+    "type": "origins:action_over_time",
+    "entity_action": {
+      "type": "origins:change_resource",
+      "resource": "fableforged:inchling/sugar/sugar",
+      "change": -1
+    },
+    "interval": 5,
+    "condition": {
+      "type": "origins:resource",
+      "resource": "fableforged:inchling/sugar/sugar",
+      "comparison": ">",
+      "compare_to": 0
+    }
+  },
+  "shake": {
+    "type": "origins:shaking",
+    "condition": {
+      "type": "origins:resource",
+      "resource": "fableforged:inchling/sugar/sugar",
+      "comparison": ">",
+      "compare_to": 0
+    }
+  },
+  "speed": {
+    "type": "origins:conditioned_attribute",
+    "tick_rate": 5,
+    "modifiers": [
+      {
+        "attribute": "minecraft:generic.movement_speed",
+        "operation": "addition",
+        "value": 0.04
+      }
+    ],
+    "condition": {
+      "type": "origins:resource",
+      "resource": "fableforged:inchling/sugar/sugar",
+      "comparison": ">",
+      "compare_to": 0
+    }
+  },
+  "hidden": true
+}

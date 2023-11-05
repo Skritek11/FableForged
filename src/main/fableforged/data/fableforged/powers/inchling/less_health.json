@@ -1,0 +1,15 @@
+{
+  "type":"origins:conditioned_attribute",
+  "modifier":{
+    "attribute":"minecraft:generic.max_health",
+    "value":-12,
+    "operation":"addition"
+  },
+  "update_health":true,
+
+  "condition": {
+    "type": "origins:power_active",
+    "power": "fableforged:inchling/switch_form",
+    "inverted": true
+  }
+}

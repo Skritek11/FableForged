@@ -1,0 +1,12 @@
+{
+  "origin.fableforged.inchling.name": "Inchling",
+  "origin.fableforged.inchling.description": "Jsi malý omegalul",
+  "power.fableforged.inchling/size.name":"Smoll",
+  "power.fableforged.inchling/size.description":"Jsi 4x menší než normálně",
+  "power.fableforged.inchling/nimble.name":"Nimble",
+  "power.fableforged.inchling/nimble.description":"You are immune to thorns and velocity based damage.",
+  "power.fableforged.inchling/ride.name":"Jockey",
+  "power.fableforged.inchling/ride.description":"You can ride other players.",
+  "power.fableforged.inchling/small_appetite.name":"Small Appetite",
+  "power.fableforged.inchling/small_appetite.description":"You exhaust much slower than others, thus requiring you to eat less."
+}

@@ -1,0 +1,13 @@
+{
+  "type": "origins:modify_exhaustion",
+  "modifier": {
+    "name": "Origin modifier",
+    "operation": "multiply_base",
+    "value": -0.75
+  },
+  "condition": {
+    "type": "origins:power_active",
+    "power": "fableforged:inchling/switch_form",
+    "inverted": false
+  }
+}

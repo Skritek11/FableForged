@@ -1,0 +1,19 @@
+{
+    "type": "origins:stacking_status_effect",
+    "min_stacks": 0,
+    "max_stacks": 1,
+    "duration_per_stack": 30,
+    "effects": {
+        "effect": "minecraft:resistance",
+        "is_ambient": true,
+        "amplifier": 1,
+        "show_particles": false,
+        "show_icon": false
+    },
+    "condition": {
+        "type": "origins:power_active",
+        "power": "fableforged:jin_and_jang/switch_form",
+        "inverted": true
+    },
+    "hidden": true
+}

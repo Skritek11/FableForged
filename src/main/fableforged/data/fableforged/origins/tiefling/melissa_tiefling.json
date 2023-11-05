@@ -1,0 +1,13 @@
+{
+  "powers": [
+    "fableforged:tiefling/no_place_like_home",
+    "fableforged:tiefling/fire_and_flames",
+    "fableforged:tiefling/nether",
+    "fableforged:tiefling/skin_color",
+    "fableforged:tiefling/hellish_rebuke",
+    "fableforged:tiefling/lava_swim"
+  ],
+  "icon": "minecraft:fire_charge",
+  "order": 10,
+  "impact": 3
+}

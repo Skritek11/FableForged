@@ -1,0 +1,10 @@
+{
+    "type": "origins:model_color",
+    "red": 0.2,
+    "green": 0.2,
+    "blue": 0.2,
+    "condition": {
+        "type": "origins:power_active",
+        "power": "fableforged:jin_and_jang/switch_form"
+    }
+    }

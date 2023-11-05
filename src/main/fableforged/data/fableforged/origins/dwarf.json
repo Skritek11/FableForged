@@ -1,0 +1,14 @@
+{
+  "powers": [
+    "fableforged:dwarf/mining",
+    "fableforged:dwarf/size",
+    "fableforged:dwarf/silk_touch",
+    "fableforged:dwarf/immunity",
+    "fableforged:dwarf/toggle",
+    "fableforged:dwarf/resource"
+
+  ],
+  "icon": "minecraft:iron_pickaxe",
+  "order": 10,
+  "impact":2
+}

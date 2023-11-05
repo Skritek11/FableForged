@@ -1,0 +1,19 @@
+{
+    "type": "origins:attacker_action_when_hit",
+    "entity_action": {
+        "type": "origins:damage",
+        "amount": 2,
+        "source": {
+            "name": "player"
+        }
+    },
+    "hud_render": {
+        "should_render": false
+    },
+    "cooldown": 10,
+    "condition": {
+        "type": "origins:power_active",
+        "power": "fableforged:jin_and_jang/switch_form"
+    },
+    "hidden": true
+}

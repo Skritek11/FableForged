@@ -1,0 +1,16 @@
+{
+
+  "type": "apugli:modify_enchantment_level",
+  "enchantment": "minecraft:silk_touch",
+  "modifier": {
+    "operation": "set_total",
+    "value": 1
+  },
+
+  "condition": {
+    "type": "origins:resource",
+    "resource": "fableforged:dwarf/resource",
+    "comparison": "==",
+    "compare_to": 1
+  }
+}

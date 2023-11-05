@@ -1,0 +1,11 @@
+{
+  "powers": [
+    "fableforged:jin_and_jang/yin_color",
+    "fableforged:jin_and_jang/switch_form",
+    "fableforged:jin_and_jang/extra_health",
+    "fableforged:jin_and_jang/less_health"
+  ],
+  "icon": "minecraft:firework_star",
+  "order": 10,
+  "impact": 3
+}
