@@ -1,0 +1,17 @@
+{
+  "powers": [
+    "fableforged:copper_golem/copper_color",
+    "fableforged:copper_golem/iron_defense",
+    "fableforged:copper_golem/sturdy",
+    "fableforged:copper_golem/no_food",
+    "fableforged:copper_golem/feed_on_copper",
+    "fableforged:copper_golem/large",
+    "fableforged:copper_golem/oxidation_action",
+    "fableforged:copper_golem/oxidation_resource",
+    "fableforged:copper_golem/long_arms"
+  ],
+
+  "icon": "minecraft:lightning_rod",
+  "order": 10,
+  "impact": 1
+}
