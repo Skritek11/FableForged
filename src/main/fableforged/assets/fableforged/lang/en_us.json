@@ -70,5 +70,21 @@
   "power.fableforged.tiefling/skin_color.name":"Skin Color",
   "power.fableforged.tiefling/skin_color.description":"You have a few options to choose your skin color from.",
   "power.fableforged.tiefling/hellish_rebuke.name":"Hellish Rebuke",
-  "power.fableforged.tiefling/hellish_rebuke.description":"Activating this ability will cause the next attack against you to be rebuked. The creature who damaged you is momentarily surrounded by hellish flames."
+  "power.fableforged.tiefling/hellish_rebuke.description":"Activating this ability will cause the next attack against you to be rebuked. The creature who damaged you is momentarily surrounded by hellish flames.",
+
+  "origin.fableforged.copper_golem.name": "Copper Golem",
+  "origin.fableforged.copper_golem.description": "Comprised entirely of copper, 'tis a sturdy machine.",
+  "power.fableforged.copper_golem/no_food.name": "Copper Machine",
+  "power.fableforged.copper_golem/no_food.description": "You cannot eat regular food. Instead, you can consume copper by placing it in your offhand. Raw copper gives 2 points, copper ingot gives 3, and copper blocks (+ unoxidised variants) give 10.",
+  "power.fableforged.copper_golem/iron_defense.name": "Iron Defense",
+  "power.fableforged.copper_golem/iron_defense.description": "You have a small permanent armor boost.",
+  "power.fableforged.copper_golem/sturdy.name": "Sturdy",
+  "power.fableforged.copper_golem/sturdy.description": "You have 12 hearts.",
+  "power.fableforged.copper_golem/large.name": "Large",
+  "power.fableforged.copper_golem/large.description": "You are 2 and a half blocks tall",
+  "power.fableforged.copper_golem/long_arms.name": "Long Arms",
+  "power.fableforged.copper_golem/long_arms.description": "With your long arms you can reach a bit further.",
+  "power.fableforged.copper_golem/oxidation_action.name": "Oxidation",
+  "power.fableforged.copper_golem/oxidation_action.description": "You oxidize over time in three stages. The more oxidized you are, the slower and weaker you will become. Place honeycomb in your offhand, and it will be consumed to undo oxidation."
+
 }

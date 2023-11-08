@@ -1,0 +1,13 @@
+{
+  "powers": [
+    "fableforged:halfling/",
+    "fableforged:halfling/",
+    "fableforged:halfling/",
+    "fableforged:halfling/",
+    "fableforged:halfling/"
+  ],
+
+  "icon": "minecraft:pumpkin_pie",
+  "order": 10,
+  "impact": 1
+}
