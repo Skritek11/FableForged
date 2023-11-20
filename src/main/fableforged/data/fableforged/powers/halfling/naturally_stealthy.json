@@ -1,0 +1,11 @@
+{
+    "type": "origins:action_over_time",
+    "entity_action": {
+        "type": "origins:execute_command",
+        "command": "/execute if entity @e[distance=..1,type=#fableforged:halfling_nimbleness_entities,tag=!small,nbt=!{IsBaby:1b}] run effect give @s minecraft:invisibility 1 0 true"
+    },
+    "interval": 5,
+    "condition": {
+        "type": "origins:sneaking"
+    }
+}

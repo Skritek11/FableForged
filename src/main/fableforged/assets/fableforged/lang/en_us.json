@@ -85,6 +85,19 @@
   "power.fableforged.copper_golem/long_arms.name": "Long Arms",
   "power.fableforged.copper_golem/long_arms.description": "With your long arms you can reach a bit further.",
   "power.fableforged.copper_golem/oxidation_action.name": "Oxidation",
-  "power.fableforged.copper_golem/oxidation_action.description": "You oxidize over time in three stages. The more oxidized you are, the slower and weaker you will become. Place honeycomb in your offhand, and it will be consumed to undo oxidation."
+  "power.fableforged.copper_golem/oxidation_action.description": "You oxidize over time in three stages. The more oxidized you are, the slower and weaker you will become. Place honeycomb in your offhand, and it will be consumed to undo oxidation.",
+
+  "origin.fableforged.halfling.name": "Halfling",
+  "origin.fableforged.halfling.description": "The comforts of home are the goals of most halflings’ lives: a place to settle in peace and quiet, far from marauding monsters and clashing armies; a blazing fire and a generous meal; fine drink and fine conversation. As a halfling you can easily hide from notice, even using other people as cover.",
+  "power.fableforged.halfling/size.name": "Size",
+  "power.fableforged.halfling/size.description": "You are half as tall as a human. You also have 40% less health points and deal 0.5 less damage. Your size is small.",
+  "power.fableforged.halfling/speed.name": "Speed",
+  "power.fableforged.halfling/speed.description": "Your base speed is 10% slower.",
+  "power.fableforged.halfling/lucky.name": "Lucky",
+  "power.fableforged.halfling/lucky.description": "You find better loot in chests and when fishing.",
+  "power.fableforged.halfling/naturally_stealthy.name": "Naturally Stealthy",
+  "power.fableforged.halfling/naturally_stealthy.description": "Sneaking while up against an entity larger that you will render you (but not your armor) invisible.",
+  "power.fableforged.halfling/halfling_nimbleness.name": "Halfling Nimbleness",
+  "power.fableforged.halfling/halfling_nimbleness.description": "You can move through the space of any creature that is a size larger than you without being slowed by entity collision. This ability can be toggled."
 
 }

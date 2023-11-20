@@ -1,10 +1,10 @@
 {
   "powers": [
-    "fableforged:halfling/",
-    "fableforged:halfling/",
-    "fableforged:halfling/",
-    "fableforged:halfling/",
-    "fableforged:halfling/"
+    "fableforged:halfling/size",
+    "fableforged:halfling/speed",
+    "fableforged:halfling/lucky",
+    "fableforged:halfling/naturally_stealthy",
+    "fableforged:halfling/halfling_nimbleness"
   ],
 
   "icon": "minecraft:pumpkin_pie",
