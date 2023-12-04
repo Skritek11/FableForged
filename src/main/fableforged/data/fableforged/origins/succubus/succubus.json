@@ -1,0 +1,19 @@
+{
+  "powers": [
+    "fableforged:succubus/heal",
+    "fableforged:succubus/skin_color",
+    "fableforged:succubus/fire_immunity",
+    "fableforged:succubus/speed",
+    "fableforged:succubus/nether",
+    "fableforged:succubus/"
+  ],
+  "upgrades":[
+    {
+      "condition":"minecraft:nether/summon_wither",
+      "origin":"fableforged:succubus/abyssal_succubus"
+    }
+  ],
+  "icon": "minecraft:netherrack",
+  "order": 10,
+  "impact": 2
+}

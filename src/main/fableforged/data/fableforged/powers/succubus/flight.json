@@ -1,0 +1,39 @@
+{
+	"type": "origins:multiple",
+	"duration": {
+		"type": "origins:cooldown",
+		"cooldown": 400,
+		"hud_render": {
+			"should_render": true
+		}
+	},
+	"activate": {
+		"type": "origins:active_self",
+		"cooldown": 1,
+		"entity_action": {
+			"type": "origins:trigger_cooldown",
+			"power": "*:*_duration"
+		},
+		"hud_render": {
+			"should_render": false
+		},
+		"key": {
+			"key": "key.origins.primary_active"
+		},
+		"condition": {
+			"type": "origins:resource",
+			"resource": "*:*_duration",
+			"comparison": "==",
+			"compare_to": 0
+		}
+	},
+	"flyingg": {
+		"type": "origins:creative_flight",
+		"condition": {
+			"type": "origins:resource",
+			"resource": "*:*_duration",
+			"comparison": ">",
+			"compare_to": 0
+		}
+	}
+}

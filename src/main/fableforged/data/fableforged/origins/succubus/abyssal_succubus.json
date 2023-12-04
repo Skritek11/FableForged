@@ -1,0 +1,14 @@
+{
+  "powers": [
+    "fableforged:succubus/heal",
+    "fableforged:succubus/skin_color",
+    "fableforged:succubus/fire_immunity",
+    "fableforged:succubus/nether_traveler",
+    "fableforged:succubus/flight",
+    "fableforged:succubus/",
+    "fableforged:succubus/"
+  ],
+  "icon": "minecraft:netherrack",
+  "order": 10,
+  "impact": 3
+}
