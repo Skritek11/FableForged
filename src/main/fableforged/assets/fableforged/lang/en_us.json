@@ -115,6 +115,11 @@
   "power.fableforged.succubus/skin_color.name": "Skin Color",
   "power.fableforged.succubus/skin_color.description": "Your skin is red.",
   "power.fableforged.succubus/speed.name": "Nimble in Dark",
-  "power.fableforged.succubus/speed.description": "If you are somewhere dark, you are a bit faster."
+  "power.fableforged.succubus/speed.description": "If you are somewhere dark, you are a bit faster.",
+  "power.fableforged.succubus/better_flight.name": "Flight",
+  "power.fableforged.succubus/better_flight.description":"Because of your wings you can fly.",
+  "power.fableforged.succubus/debuff.name": "Lust",
+  "power.fableforged.succubus/debuff.description":"Lust not only captivates the desires of her enemies but also renders them weak and vulnerable, as the overwhelming allure weakens their resolve and diminishes their strength."
+
 
 }

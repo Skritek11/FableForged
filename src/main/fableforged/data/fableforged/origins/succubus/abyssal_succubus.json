@@ -4,9 +4,9 @@
     "fableforged:succubus/skin_color",
     "fableforged:succubus/fire_immunity",
     "fableforged:succubus/nether_traveler",
-    "fableforged:succubus/flight",
-    "fableforged:succubus/",
-    "fableforged:succubus/"
+    "fableforged:succubus/better_flight",
+    "fableforged:succubus/debuff",
+    "fableforged:succubus/speed"
   ],
   "icon": "minecraft:netherrack",
   "order": 10,
