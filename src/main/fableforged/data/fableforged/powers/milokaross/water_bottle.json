@@ -1,0 +1,16 @@
+{
+  "type": "origins:action_on_item_use",
+  "trigger": "instant",
+  "entity_action": {
+    "type": "origins:change_resource",
+    "resource": "fableforged:milokaross/water_bar_bar",
+    "change": 100
+  },
+  "item_condition": {
+    "type": "origins:ingredient",
+    "ingredient": {
+      "item": "minecraft:potion"
+    }
+  },
+  "hidden": true
+}

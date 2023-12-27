@@ -1,0 +1,18 @@
+{
+  "powers": [
+    "fableforged:milokaross/water_breathing",
+    "origins:water_vision",
+    "origins:aqua_affinity",
+    "origins:swim_speed",
+    "origins:like_water",
+    "fableforged:milokaross/water_bar",
+    "fableforged:milokaross/water_bottle",
+    "fableforged:milokaross/flaws",
+    "fableforged:milokaross/fire",
+    "fableforged:milokaross/skin_color"
+
+  ],
+  "icon": "minecraft:heart_of_the_sea",
+  "order": 10,
+  "impact":3
+}

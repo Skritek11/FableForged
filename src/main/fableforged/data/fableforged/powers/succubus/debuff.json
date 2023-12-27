@@ -7,8 +7,8 @@
   },
   "condition":{
     "type":"origins:command",
-    "command":"execute if entity @e[distance=10.1..1]",
+    "command":"execute if entity @e[distance=1..10]",
     "comparison":">",
-    "compare_to":0
+    "compare_to":1
   }
 }

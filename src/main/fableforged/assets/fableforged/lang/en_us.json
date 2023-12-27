@@ -119,7 +119,17 @@
   "power.fableforged.succubus/better_flight.name": "Flight",
   "power.fableforged.succubus/better_flight.description":"Because of your wings you can fly.",
   "power.fableforged.succubus/debuff.name": "Lust",
-  "power.fableforged.succubus/debuff.description":"Lust not only captivates the desires of her enemies but also renders them weak and vulnerable, as the overwhelming allure weakens their resolve and diminishes their strength."
+  "power.fableforged.succubus/debuff.description":"Lust not only captivates the desires of her enemies but also renders them weak and vulnerable, as the overwhelming allure weakens their resolve and diminishes their strength.",
 
+  "origin.fableforged.milokaross.name": "Milokaross",
+  "origin.fableforged.milokaross.description":"Adorned with bioluminescent scales and sinuous grace, elegantly patrols the ocean depths, embodying the enigmatic beauty and predatory power of the underwater realm.",
+  "power.fableforged.milokaross/fire.name": "Fire Weakness",
+  "power.fableforged.milokaross/fire.description": "You are weak to fire damage.",
+  "power.fableforged.milokaross/skin_color.name": "Skin Color",
+  "power.fableforged.milokaross/skin_color.description": "Your skin is covered with turquoise scales",
+  "power.fableforged.milokaross/water_bar.name": "Wetness",
+  "power.fableforged.milokaross/water_bar.description": "You need to make sure you are wet enough. Maybe somebody can help you with that.",
+  "power.fableforged.milokaross/water_breathing.name": "Water Breathing",
+  "power.fableforged.milokaross/water_breathing.description": "You can breathe underwater."
 
 }
