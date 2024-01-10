@@ -6,20 +6,20 @@
     "bientity_condition":{
       "type":"origins:target_condition",
       "condition":{
-        "type":"origins:entity_type",
-        "entity_type":"minecraft:player"
+        "type":"origins:in_tag",
+        "tag":"fableforged:mountable"
       }
     },
     "bientity_action":{
       "type":"origins:mount"
     }
   },
-  "cooldown":10,
   "key":"key.use",
+
 
   "condition": {
     "type": "origins:power_active",
     "power": "fableforged:inchling/switch_form",
-    "inverted": false
+    "inverted": true
   }
 }

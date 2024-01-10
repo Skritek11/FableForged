@@ -1,0 +1,8 @@
+{
+  "type": "origins:damage_over_time",
+  "interval": 0,
+  "damage": 10,
+  "source": {
+    "name": "generic.player"
+  }
+}

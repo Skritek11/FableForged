@@ -1,0 +1,204 @@
+{
+  "type": "origins:multiple",
+
+  "armor": {
+  "type": "origins:active_self",
+  "entity_action":{
+    "type": "origins:and",
+  "actions":[
+    {
+      "type": "origins:execute_command",
+      "command": "function fableforged:cid/atomic/armorstand"
+    },
+    {
+      "type": "origins:trigger_cooldown",
+      "power": "fableforged:cid/cooldown"
+    },
+    {
+      "type": "origins:execute_command",
+      "command": "tp @s @e[type=minecraft:armor_stand, tag=c1, limit=1]"
+    },
+    {
+      "type": "origins:execute_command",
+      "command": "scoreboard players reset @s 4550"
+    },
+    {
+      "type": "origins:execute_command",
+      "command": "tag Pettan_CZ add target"
+    }
+  ]
+  },
+    "cooldown": 400,
+    "hud_render": {
+      "should_render": true,
+      "bar_index": 5
+    },
+    "key": {
+      "key": "key.origins.primary_active"
+    }
+  },
+
+  "helix": {
+
+  "type":"origins:action_over_time",
+  "entity_action":{
+    "type": "origins:execute_command",
+    "command": "function fableforged:cid/atomic/helix"
+
+  },
+    "condition": {
+      "type": "origins:and",
+    "conditions": [
+      {
+        "type":"origins:resource",
+        "resource":"fableforged:cid/cooldown",
+        "comparison":">",
+        "compare_to":0
+      },
+      {
+        "type":"origins:resource",
+        "resource":"fableforged:cid/cooldown",
+        "comparison":"<",
+        "compare_to":180
+      }
+    ]
+    },
+  "interval":1
+
+  },
+  "circle1": {
+
+  "type":"origins:action_over_time",
+  "entity_action":{
+    "type":"origins:execute_command",
+    "command":"function fableforged:cid/atomic/circle1"
+
+  },
+  "condition": {
+    "type": "origins:and",
+    "conditions": [
+      {
+        "type":"origins:resource",
+        "resource":"fableforged:cid/cooldown",
+        "comparison":">",
+        "compare_to":0
+      },
+      {
+        "type":"origins:resource",
+        "resource":"fableforged:cid/cooldown",
+        "comparison":"<",
+        "compare_to":180
+      }
+    ]
+  },
+  "interval":1
+
+},
+  "circle2": {
+
+    "type":"origins:action_over_time",
+    "entity_action":{
+      "type":"origins:execute_command",
+      "command":"function fableforged:cid/atomic/circle2"
+
+    },
+    "condition": {
+      "type": "origins:and",
+      "conditions": [
+        {
+          "type":"origins:resource",
+          "resource":"fableforged:cid/cooldown",
+          "comparison":">",
+          "compare_to":0
+        },
+        {
+          "type":"origins:resource",
+          "resource":"fableforged:cid/cooldown",
+          "comparison":"<",
+          "compare_to":120
+        }
+      ]
+    },
+    "interval":1
+
+  },
+  "circle3": {
+
+    "type":"origins:action_over_time",
+    "entity_action":{
+      "type":"origins:execute_command",
+      "command":"function fableforged:cid/atomic/circle3"
+
+    },
+    "condition": {
+      "type": "origins:and",
+      "conditions": [
+        {
+          "type":"origins:resource",
+          "resource":"fableforged:cid/cooldown",
+          "comparison":">",
+          "compare_to":0
+        },
+        {
+          "type":"origins:resource",
+          "resource":"fableforged:cid/cooldown",
+          "comparison":"<",
+          "compare_to":60
+        }
+      ]
+    },
+    "interval":1
+
+  },
+  "slowness": {
+    "type": "origins:conditioned_attribute",
+    "modifier": {
+      "attribute": "minecraft:generic.movement_speed",
+      "operation": "addition",
+      "value": -5
+    },
+    "tick_rate": 1,
+    "condition": {
+      "type": "origins:and",
+      "conditions": [
+        {
+          "type":"origins:resource",
+          "resource":"fableforged:cid/cooldown",
+          "comparison":">",
+          "compare_to":0
+        },
+        {
+          "type":"origins:resource",
+          "resource":"fableforged:cid/cooldown",
+          "comparison":"<",
+          "compare_to":180
+        }
+      ]
+    }
+  },
+  "glow": {
+    "type": "origins:self_glow",
+    "use_teams": false,
+    "red": 0.58039215,
+    "green": 0,
+    "blue": 0.82745098,
+    "condition": {
+      "type": "origins:and",
+      "conditions": [
+        {
+          "type":"origins:resource",
+          "resource":"fableforged:cid/cooldown",
+          "comparison":">",
+          "compare_to":0
+        },
+        {
+          "type":"origins:resource",
+          "resource":"fableforged:cid/cooldown",
+          "comparison":"<",
+          "compare_to":180
+        }
+      ]
+    }
+
+  }
+}

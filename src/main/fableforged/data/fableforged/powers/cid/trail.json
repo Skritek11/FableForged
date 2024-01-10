@@ -1,0 +1,9 @@
+{
+  "type":"origins:action_over_time",
+  "entity_action":{
+    "type":"origins:execute_command",
+    "command":"particle minecraft:dust 0.58039215 0 0.82745098 2 ~ ~ ~.08 .1 .1 .1 0 3"
+  },
+  "interval":4,
+  "hidden":true
+}

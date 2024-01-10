@@ -1,0 +1,61 @@
+{
+  "type": "origins:action_over_time",
+  "entity_action":{
+    "type": "origins:and",
+    "actions":[
+      {
+      "type": "origins:area_of_effect",
+     "radius": 100,
+     "bientity_condition": {
+      "type": "origins:target_condition",
+      "condition": {
+        "type": "origins:or",
+        "conditions": [
+          {
+          "type":"origins:in_tag",
+          "tag":"fableforged:atomic"
+          }
+        ]
+      }
+    },
+    "bientity_action": {
+        "type": "origins:damage",
+        "amount": 7777777,
+        "source": {
+          "name": "explosion.player",
+          "bypasses_armor": true,
+          "unblockable": true
+
+        }
+    }
+      },
+      {
+        "type":"origins:execute_command",
+        "command":"kill @e[distance=..100, tag=target]"
+      },
+      {
+        "type":"origins:execute_command",
+        "command":"function fableforged:cid/atomic/finish"
+      }
+    ]
+  },
+  "condition": {
+    "type": "origins:and",
+    "conditions": [
+      {
+        "type":"origins:resource",
+        "resource":"fableforged:cid/cooldown",
+        "comparison":">",
+        "compare_to":0
+      },
+      {
+        "type":"origins:resource",
+        "resource":"fableforged:cid/cooldown",
+        "comparison":"<=",
+        "compare_to":2
+      }
+    ]
+  },
+  "interval":1,
+  "hidden": true
+}

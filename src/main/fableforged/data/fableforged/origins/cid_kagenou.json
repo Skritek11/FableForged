@@ -1,0 +1,19 @@
+{
+  "powers": [
+    "fableforged:cid/plot_armor",
+    "fableforged:cid/dmg",
+    "fableforged:cid/immunity",
+    "fableforged:cid/flight",
+    "fableforged:cid/trail",
+    "fableforged:cid/atomic_activation",
+    "fableforged:cid/cooldown",
+    "fableforged:cid/joining",
+    "fableforged:cid/atomic",
+    "fableforged:cid/teleport",
+    "fableforged:cid/delta"
+  ],
+  "icon": "epicfight:uchigatana",
+  "order": 10,
+  "impact": 3,
+  "unchoosable": true
+}

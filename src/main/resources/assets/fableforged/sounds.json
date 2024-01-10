@@ -1,0 +1,18 @@
+{
+  "moonlight_sonata": {
+    "sounds": [
+      {
+        "name": "fableforged:moonlight_sonata",
+        "stream": true
+      }
+    ]
+  },
+  "intro_shadow": {
+    "sounds": [
+      {
+        "name": "fableforged:intro_shadow",
+        "stream": true
+      }
+    ]
+  }
+}

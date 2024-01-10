@@ -1,4 +1,13 @@
 {
+
+  "item.fableforged.blackhole": "Black Hole",
+  "item.fableforged.moonlight_sonata_music_disc": "Music Disc",
+  "item.fableforged.moonlight_sonata_music_disc.desc": "Shadow - Moonlight",
+  "item.fableforged.intro_shadow_music_disc": "Music Disc",
+  "item.fableforged.intro_shadow_music_disc.desc": "Shadow - The Eminence in Shadow - Opening",
+
+
+
   "origin.fableforged.cobroid.name": "Cobroid",
   "origin.fableforged.cobroid.description": "You are a small cobra, your fangs are full of poison and you are ready to attack when you need to.",
   "power.fableforged.cobroid/cold_resource.name": "Cold Weakness",
@@ -12,7 +21,7 @@
   "power.fableforged.cobroid/scale_armor.name": "Scale Armor",
   "power.fableforged.cobroid/scale_armor.description": "Your scales provide natural protection, giving you 1 bar of armor.",
   "power.fableforged.cobroid/speed_in_day.name": "Heat Speed",
-  "power.fableforged.cobroid/spe.description": "You are naturally faster because of the heat, you gain speed during the day and in the nether.",
+  "power.fableforged.cobroid/speed_in_day.description": "You are naturally faster because of the heat, you gain speed during the day and in the nether.",
 
   "origin.fableforged.dwarf.name": "Dwarf",
   "origin.fableforged.dwarf.description":"The original underground hipsters - they were mining for treasures and crafting beards before it was cool!",
@@ -128,8 +137,26 @@
   "power.fableforged.milokaross/skin_color.name": "Skin Color",
   "power.fableforged.milokaross/skin_color.description": "Your skin is covered with turquoise scales",
   "power.fableforged.milokaross/water_bar.name": "Wetness",
-  "power.fableforged.milokaross/water_bar.description": "You need to make sure you are wet enough. Maybe somebody can help you with that.",
+  "power.fableforged.milokaross/water_bar.description": "You need to make sure you are wet enough. Maybe somebody can help you with that. And don't forget to hydrate.",
   "power.fableforged.milokaross/water_breathing.name": "Water Breathing",
-  "power.fableforged.milokaross/water_breathing.description": "You can breathe underwater."
+  "power.fableforged.milokaross/water_breathing.description": "You can breathe underwater.",
 
+  "origin.fableforged.cid_kagenou.name": "Shadow",
+  "origin.fableforged.cid_kagenou.description": "My Name is Shadow. He who lurks in shadow in order to hunt shadow.",
+  "power.fableforged.cid/plot_armor.name": "Plot Armor",
+  "power.fableforged.cid/plot_armor.description": "You are who you are supposed to be.",
+  "power.fableforged.cid/dmg.name": "Strength from another world.",
+  "power.fableforged.cid/dmg.description": "Your past journeys had prepared you, for what is about come.",
+  "power.fableforged.cid/immunity.name": "First lesson in the trickery",
+  "power.fableforged.cid/immunity.description": "Their weak tricks amuse you.",
+  "power.fableforged.cid/flight.name": "Void",
+  "power.fableforged.cid/flight.description": "Gravity is just a recommendation",
+  "power.fableforged.cid/trail.name": "Way of the Shadow",
+  "power.fableforged.cid/trail.description": "For those who want to be your followers",
+  "power.fableforged.cid/atomic_activation.name": "Sonic Exterminatioń",
+  "power.fableforged.cid/atomic_activation.description": "I... Am... ATOMIC",
+  "power.fableforged.cid/teleport.name": "BOO",
+  "power.fableforged.cid/teleport.description": "Right behind you.",
+  "power.fableforged.cid/delta.name": "A friendly Companion",
+  "power.fableforged.cid/delta.description": "She is not just a good girl. Delta is life."
 }

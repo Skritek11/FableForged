@@ -1,0 +1,45 @@
+{
+  "type": "origins:multiple",
+  "spawn":
+  {
+   "type": "origins:active_self",
+   "entity_action": {
+      "type": "origins:spawn_entity",
+      "entity_type": "minecraft:wolf",
+      "tag": "{CustomName:'{\"text\":\"Delta\",\"color\":\"dark_purple\"}',CollarColor:10, Tags:[\"companion\"], AbsorptionAmount:10f,Attributes:[{Name:generic.max_health,Base:40},{Name:generic.knockback_resistance,Base:0.3},{Name:generic.attack_damage,Base:15},{Name:generic.armor,Base:15},{Name:generic.armor_toughness,Base:8},{Name:generic.max_absorption,Base:10}] }"
+   },
+    "cooldown": 200,
+    "hud_render": {
+      "should_render": true,
+      "sprite_location": "origins:textures/gui/community/huang/resource_bar_02.png",
+      "bar_index": 7
+    },
+    "key": {
+      "key": "key.saveToolbarActivator"
+    }
+  },
+  "companion":
+  {
+    "type": "origins:active_self",
+    "entity_action": {
+      "type": "origins:execute_command",
+      "command": "data modify entity @e[tag=companion,limit=1] Owner set from entity @p UUID"
+    },
+    "key": {
+      "key": "key.saveToolbarActivator"
+    }
+  },
+  "nodmg":
+  {
+  "type": "origins:modify_damage_dealt",
+  "bientity_condition": {
+    "type": "origins:owner"
+  },
+  "modifier": {
+    "operation": "multiply_total",
+    "value": -1
+
+}
+  }
+
+}
